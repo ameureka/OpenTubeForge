@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenTubeForge · 把长视频制作接回同一条时间线</title>
+<meta name="description" content="OpenTubeForge 是正在筹备的开源、本地优先科技长视频制作工作台。把资料、口播、片元、字幕和交付记录接回同一条时间线。">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0A0C10">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="topbar">
+  <a class="wordmark" href="#top" aria-label="OpenTubeForge 首页">OpenTubeForge</a>
+  <nav aria-label="页面导航">
+    <a href="#what">做什么</a><a href="#now">现在到哪</a><a href="#open">开源准备</a><a href="#faq">问题</a>
+  </nav>
+  <span class="state"><i aria-hidden="true"></i>工作台筹备中</span>
+</header>
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="width">
+    <p class="kicker">给科技长视频创作者的本地优先工作台</p>
+    <h1 id="hero-title">接缝听完了，<br>画面还停在上一版。</h1>
+    <p class="lead">资料、口播、片元、字幕各自改过一轮，最后总要回到同一条时间线。<br>OpenTubeForge 正在把这些制作动作，接成可检查、可接续的开源工作台。</p>
+    <div class="actions">
+      <a class="button solid" href="#what">看看它要做什么</a>
+      <a class="button outline" href="#now">看当前进度</a>
+      <a class="button outline" href="https://github.com/ameureka/OpenTubeForge">项目仓库</a>
+    </div>
+    <p class="honest">现在还没有公开安装包。页面里的轨道是制作流程示意，不是软件截图。<br>项目仓库与软件许可证已确认，完整工作台仍在筹备。</p>
+    <figure class="clock" aria-label="节目时钟与三条制作轨道示意图">
+      <div class="clock-head"><strong>节目时钟 · 制作流程示意</strong><span>片段 03:08 — 03:16</span></div>
+      <div class="ruler" aria-hidden="true">
+        <div class="ticks"><span>03:08</span><span>03:09</span><span>03:10</span><span>03:11</span><span>03:12</span><span>03:13</span><span>03:14</span><span>03:15</span><span>03:16</span></div>
+        <div class="marker">03:12 · 待听</div>
+      </div>
+      <div class="tracks">
+        <div class="track"><b>口播</b><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><em>已核对</em></div>
+        <div class="track current"><b>片元</b><span class="clip" aria-label="片元待对齐"></span><em>待对齐</em></div>
+        <div class="track"><b>字幕</b><span class="caption">「按真实口播校对，不按旧稿复制」</span><em>待核</em></div>
+      </div>
+      <figcaption>青色只标当前工件，橙色只标需要人再听一次。界面示意 · 非已发布产品。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="what" aria-labelledby="what-title"><div class="width two">
+  <div><p class="kicker">它要做什么</p><h2 id="what-title">别让「刚才那一版」<br>只能靠记忆找</h2><p>长视频制作不是一次生成，而是资料、稿件、原声、画面与交付记录不断对版。我们希望让每一步都有清楚的输入、产物和待确认项。</p></div>
+  <ol class="flow">
+    <li><span>01</span><div><strong>资料回到原文</strong><p>数字、引用和待核问题有出处，不把没查过的话写进口播。</p></div></li>
+    <li><span>02</span><div><strong>稿件服从真实口播</strong><p>录音前锁定这一版；录音后，以本人实际说的话继续制作。</p></div></li>
+    <li><span>03</span><div><strong>画面、声音各自留痕</strong><p>片元、字幕、原声有来源和版本，不靠一长串聊天记录翻找。</p></div></li>
+    <li><span>04</span><div><strong>交付前再看成片</strong><p>结构检查、观看试听和人工接受分开，草稿能打开不等于播放正确。</p></div></li>
+  </ol>
+</div></section>
+
+<section class="section lines" id="now" aria-labelledby="now-title"><div class="width">
+  <p class="kicker">现在到哪一步</p><h2 id="now-title">做过的事，和未来要做的事，分开写</h2>
+  <div class="states">
+    <article><span class="tag done">已有实跑记录</span><h3>底层制作工具</h3><p>原声纯剪、阶段检查、来源台账等工具已有真实制作记录；每项适用范围和人工门分别保留。</p></article>
+    <article><span class="tag doing">待集成验证</span><h3>统一工作台</h3><p>正在把输入、文件契约、制作任务和人工确认接到一处。完整链路还没跑通，不宣称一键出片。</p></article>
+    <article><span class="tag wait">尚未发布</span><h3>安装包与公开仓库</h3><p>平台支持、许可证与首批开放范围仍在核对。现在没有可下载版本，也没有公开提交入口。</p></article>
+  </div>
+</div></section>
+
+<section class="section" id="open" aria-labelledby="open-title"><div class="width two">
+  <div><p class="kicker">开源准备</p><h2 id="open-title">想开放的不只是界面</h2><p>还有制作方法、文件契约、验证记录，以及那些没一次做对的弯路。公开前会先核对每项素材与代码的来源、许可和可公开范围。</p><p class="small">具体许可证、仓库地址、贡献规范和发布日期，随正式发布说明。在此之前，请别把本页当作已经开放下载的承诺。</p></div>
+  <ul class="openlist"><li><span>来源清楚</span>代码、字体、图片、示例与文档逐项确认</li><li><span>边界清楚</span>工具检查不等于人工听看，也不等于发布批准</li><li><span>能接续</span>失败样本、版本差异和未决项一起保留</li><li><span>人来判断</span>事实、叙事、素材权利与最终成片不交给自动流程</li></ul>
+</div></section>
+
+<section class="section lines" id="faq" aria-labelledby="faq-title"><div class="width two faq">
+  <div><p class="kicker">常见问题</p><h2 id="faq-title">先把边界说明白</h2><p>这不是产品说明书，只回答现在最容易被误会的事。</p></div>
+  <div class="questions">
+    <details><summary>现在可以下载吗？</summary><p>不能。完整工作台和正式安装包尚未公开发布。本页只说明方向与当前进度。</p></details>
+    <details><summary>已经开源了吗？</summary><p>开源是明确方向，但许可证、开放范围和公开仓库尚未公布，不能把本页当作已开源声明。</p></details>
+    <details><summary>会一键生成完整长视频吗？</summary><p>不会把这写成当前承诺。目标是减少重复流转，选题、事实、录音、素材权利和最终观看试听仍需人确认。</p></details>
+    <details><summary>本地优先等于数据绝不外发吗？</summary><p>不是。接入远程模型或第三方服务时，可能发送部分内容；具体范围要由实际功能和权限说明界定。</p></details>
+    <details><summary>现在能怎样参与？</summary><p>先了解制作方法和路线图。贡献入口、规范与可公开材料会随正式仓库一起说明。</p></details>
+  </div>
+</div></section>
+</main>
+<footer><div class="width footer"><div><strong>OpenTubeForge</strong><p>把资料、口播、画面与交付记录，接回同一条时间线。</p></div><p>本地优先 · 开源筹备中 · 本页不提供下载或账号服务<br>主项目软件采用 Apache-2.0；第三方素材按各自许可另行审查。</p></div></footer>
+</body>
+</html>
